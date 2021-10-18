@@ -1,6 +1,6 @@
 /* Header */
     .Header {
-        background-color: Black;
+        background-image: url('assets/jhin.png');
         padding: 0.5%;
     }
 
@@ -17,8 +17,19 @@
 
 /* Body */
     .Body{
-      background-image: url('assets/windows_xp_bliss.jpg');
+      
       flex-direction: row;
+      animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
     }
 /* Body */
 
@@ -37,6 +48,7 @@
       opacity: 0.5;
       position: relative;
       text-align: center;
+      border: 2px black;
       /* color: white; */
     }
 
@@ -66,6 +78,30 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .centered1:link{
+      text-decoration: none;
+    }
+    .centered1:visited{
+      text-decoration: none;
+    }
+    .centered1:hover{
+      text-decoration: none;
+    }
+    .centered1:active{
+      text-decoration: none;
+    }
+
+    .centered2{
+      font-size: xxx-large;
+      font-weight: bolder;
+      color: black;
+      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
 
 /* topBody */
 
