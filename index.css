@@ -1,8 +1,7 @@
 /* Header */
     .Header {
         background-color: Black;
-        align-items: center;
-        padding: 0.5% 3%;
+        padding: 0.5%;
     }
 
     .nameTitle{
@@ -18,6 +17,7 @@
 
 /* Body */
     .Body{
+      background-image: url('assets/windows_xp_bliss.jpg');
       flex-direction: row;
     }
 /* Body */
@@ -26,7 +26,7 @@
 
 /* topBody */
     .topBody{
-      background-color: white;
+      /* background-color: white; */
       display: flex;
       justify-content: space-between;
       padding: 2% 5%;
@@ -34,16 +34,26 @@
   
     .topLeft {
       /* background-color: white; */
+      opacity: 0.5;
       position: relative;
       text-align: center;
       /* color: white; */
     }
 
+    .topLeft:hover{
+      opacity: 1;
+    }
+
     .topRight {
       /* background-color: white; */
+      opacity: 0.5;
       position: relative;
       text-align: center;
       /* color: white; */
+    }
+
+    .topRight:hover{
+      opacity: 1;
     }
 
     .centered1{
