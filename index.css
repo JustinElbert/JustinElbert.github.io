@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
-
+body{
+  background-image: url("Assets/windows_xp_bliss.jpg");
+}
 /* Header */
     .Header {
-      background-color:	white;
+      /* background-color:	white; */
       display: flex;
       justify-content: space-between;
       flex-direction: row;
@@ -83,11 +85,11 @@
     #menu
     {
       position: absolute;
-      margin: -80px 0px 0px -50px;
-      height: 717px;
+      margin: -90px 0px 0px -50px;
+      height: 729px;
       /* margin: -10px; */
       
-      background: #ededed;
+      background: white;
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
       
@@ -99,7 +101,7 @@
 
     #menu li
     {
-      padding: 20px;
+      padding: 25px;
       font-size: 22px;
       font-family: 'Barlow', sans-serif;
       font-weight: bold;
@@ -135,7 +137,7 @@
 
 /* topBody */
     .topBody{
-      background-color: white;
+      /* background-color: white; */
       display: flex;
       justify-content: space-around;
       padding: 5% 15%;
