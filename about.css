@@ -116,12 +116,24 @@ body{
       display: flex;
       justify-content: space-between;
       padding: 5%;
+      flex-direction: row;
+      animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
     }
 
     .profilePic img{
       width: 400px;
       height: auto;
-      border-radius: 20%;
+      border-radius: 15%;
     }
 
     .aboutMe{
