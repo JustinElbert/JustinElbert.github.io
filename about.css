@@ -140,9 +140,13 @@ body{
       padding: 50px;
       text-align: justify;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 25px;
       color: black;
       font-family: 'Barlow', sans-serif;
+    }
+
+    .aboutText{
+      padding-top: 60px;
     }
 
 /* Body */
