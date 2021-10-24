@@ -139,7 +139,7 @@ body{
     font-size: 45px;
     color: black;
     font-family: 'Barlow', sans-serif;
-    padding-bottom: 125px;
+    padding-bottom: 75px;
   }
 
   .logos{
@@ -155,6 +155,15 @@ body{
 
   .logos img{
     padding-bottom: 10px;
+  }
+  
+  .email{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
   }
 
  /* Body */
