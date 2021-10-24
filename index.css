@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
 body{
   background-image: url("windows_xp_bliss.jpg");
+  /* background-image: url("Assets/tree-2688957_960_720.jpg"); */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
 }
 /* Header */
     .Header {
@@ -65,7 +69,6 @@ body{
       opacity: 0; 
       z-index: 2; 
       
-      -webkit-touch-callout: none;
     }
 
     #menuToggle span
@@ -86,8 +89,8 @@ body{
     {
       position: absolute;
       margin: -90px 0px 0px -50px;
-      min-height: 729px;
-      /* margin: -10px; */
+      height: 729px;
+      /* height: auto; */
       
       background: white;
       list-style-type: none;

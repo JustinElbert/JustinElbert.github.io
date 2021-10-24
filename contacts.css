@@ -115,3 +115,48 @@ body{
 /* Header */
 
 /* ------------------------------------------------------- */
+
+/* Body */
+  .Body{
+    display: flex;
+    flex-direction: column;
+    animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
+  }
+
+  .name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    padding-bottom: 125px;
+  }
+
+  .logos{
+    padding-left: 45px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    font-size: 45px;
+    color: black;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+  }
+
+  .logos img{
+    padding-bottom: 10px;
+  }
+
+ /* Body */
+
+ /* ------------------------------------------------------- */
