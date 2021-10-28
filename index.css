@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&display=swap');
 body{
-  /* background-image: url("windows_xp_bliss.jpg"); */
-  /* background-image: url("Assets/tree-2688957_960_720.jpg"); */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
+  background: linear-gradient(-45deg, #323232, #4c4c4c, #7f7f7f, #e5e5e5);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 /* Header */
     .Header {
@@ -92,7 +115,7 @@ body{
       height: 729px;
       /* height: auto; */
       
-      background: #C0C0C0;
+      background: white;
       list-style-type: none;
       -webkit-font-smoothing: antialiased;
       
