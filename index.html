@@ -10,9 +10,6 @@
 
 <body>
     <div class = "Header">
-        <!-- <div class = "profilePic" >
-            <img src="Assets/20210418_1234152.jpg">
-        </div> -->
         <nav role="navigation">
             <div id="menuToggle">
               <input type="checkbox" />
@@ -39,8 +36,6 @@
           </nav>
         <div class = "textHeader">
             <p>Justin Elbert</p>
-            <!-- <p>Hi, my name is Justin Elbert</p>
-            <p>Im an Undergraduate Student from Binus University</p>  -->
         </div>
     </div>
     <div class = "Body">
@@ -81,6 +76,18 @@
         </div> -->
     </div>
 
+    <script>
+        let toggle = document.querySelector('.toggle');
+        let topbar = document.querySelector('.topbar');
+        let navigation = document.querySelector('.navigation');
+        let main = document.querySelector('.main');
+        toggle.onclick = function() {
+            toggle.classList.toggle('active');
+            topbar.classList.toggle('active');
+            navigation.classList.toggle('active');
+            main.classList.toggle('active');
+        }
+    </script>
 </body>
 
 </html>
